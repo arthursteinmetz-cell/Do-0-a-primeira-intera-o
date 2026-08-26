@@ -88,5 +88,13 @@ padding: 16px;
 <p>© 2026 Arthur Lorenzo Zilio Steinmetz</p>
 </footer>
 
-<script src="script.js"></script>
+<script>
+const botao = document.querySelector("button");
+botao.addEventListener("click",botaoClicado);
+
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
 </html>
