@@ -41,7 +41,7 @@ padding: 16px;
 <body>
 
 <header>
-<h1>🌱 Agronegócio do Brasil</h1>
+<h1> Agronegócio do Brasil</h1>
 </header>
 
 <section id="sobre">
@@ -55,18 +55,18 @@ padding: 16px;
 <h1>Serviços</h1>
 
 <div class="card">
-<h3>🚜 Agricultura de Precisão</h3>
+<h3>🚜Agricultura de Precisão</h3>
 <h4>A agricultura de precisão é um sistema de gestão agrícola baseado em dados que usa GPS, sensores e drones para otimizar o uso de recursos na lavoura.</h4>
 <h4> Ela ajuda a gastar menos insumos, proteger o solo e aumentar a colheita de forma exata</h4>
 </div>
 
 <div class="card">
-<h3>🌾 Gestão Rural</h3>
+<h3> Gestão Rural</h3>
 <h3>A gestão rural no agronegócio é o conjunto de práticas de planejamento, organização e controle voltado a transformar fazendas em empresas lucrativas e sustentáveis. Seus pilares essenciais incluem o controle rigoroso de custos financeiros, a adoção de tecnologias de precisão e a tomada de decisões baseada em dados em vez de improviso.</h3>
 </div>
 
 <div class="card">
-<h2>🌎 Sustentabilidade</h2>
+<h2> Sustentabilidade</h2>
 <h4>A sustentabilidade no agronegócio une a produção de alimentos à proteção dos recursos naturais. Ela se baseia em três pontos: o cuidado com o meio ambiente, o apoio à sociedade e o lucro justo.</h4>
 <h3>Práticas no Campo</h3>
 <h4>Uso da terra: Plantar mais na mesma área para evitar novos desmatamentos.</h4>
@@ -77,9 +77,15 @@ padding: 16px;
 <h4>Novos mercados: Países de fora exigem provas de que o produto não estraga a natureza.</h4>
 <h4> Custo alto: O início de novas tecnologias exige muito dinheiro do produtor.</h4>
 </div>
-<main>
-        <img src="imagem.png" alt="imagem de agronégocio">
-    </main>
+<script>
+const botao = document.querySelector("button");
+botao.addEventListener("click",botaoClicado);
+
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
+</script>
 
 </section>
 
